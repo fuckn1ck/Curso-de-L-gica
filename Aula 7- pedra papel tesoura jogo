@@ -27,4 +27,7 @@ if(u1 == 3 && u2 == 2){
 else if(u1 == 2 && u2 == 3){
     console.log('O segundo usuário venceu');
 }
+else{
+    console.log('Houve algo de errado, insira valores correspondentes')
+}
 }
