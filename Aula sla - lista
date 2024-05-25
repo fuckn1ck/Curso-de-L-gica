@@ -1,0 +1,104 @@
+lista.length - MEDE O TAMANHO DA LISTA
+
+lista.push (METODO PUSH) - DA P/ ADICIONAR MAIS ELEMENTOS NA LISTA
+
+lista.pop ()
+console.log(lista) (METODO POP) - REMOVE O ULTIMO ELEMENTO DA LISTA
+
+console.log(lista[1]) - ESCOLHE/RECONHECE UM ELEMENTO DA LISTA
+
+for(var item in lista){
+  console.log(item)
+}- RECONHECE/CONTA O TAMANHO  A LISTA INTEIRA INDIVIDUALMENTE/SEPARADAMENTE
+
+for(lista[item]){
+  console.log(item)
+}- RECONHECE OS NOMES DA LISTA INTEIRA INDIVIDUALMENTE
+
+for(var item in lista){
+  console.log(`${item} - ${lista[item]}`)
+}- nsei
+
+for(let item in nomes){
+    if(nomes[item] == "Patty"){
+        console.log(nomes[item])
+break
+    }   
+} - FILTRA E ACHA O ELEMENTO QUE VC QUER
+
+nomes.filter((nome)=>nome=="Patty")
+console.log(filtro); - FILTRA E ACHA O ELEMENTO QUE VC QUER E MOSTRA QUANTAS VEZES ELE FOI ESCRITO
+
+let lista = ['maçã',[tomate, cebola] '4', '¨']
+let pessoas = {
+    'nome': 'Nicolli',
+    'profissão': 'professor',
+    'admin': true
+}
+log(lista[2][1])- aparece a segunda lista, e somente cebola
+
+listas=array
+pessoas=objeto
+
+console.log(pessoas['nome'])- MOSTRA O NOME
+console.log(pessoas['profissoes'[2]])- MOSTRA A SEGUNDA PROFISSAO DA LISTA/OBJETO DE PROFISSOES
+
+let lista = ['maçã',[tomate, cebola] '4', '¨']
+let pessoas = {
+    'nome': 'Nicolli',
+    'profissoes': 'professor',
+    'product owner',
+    'web developer'
+    'admin': true
+}
+
+lista.pop ()
+console.log(lista);
+nomes.filter((nome)=>nome=="Patty")
+console.log(filtro);
+for(let item in nomes){
+    if(nomes[item] == "Patty"){
+        console.log(nomes[item])
+break
+    }   
+}
+log(lista[2][1])- aparece a segunda lista, e somente cebola
+console.log(pessoas['profissoes'[2]])
+
+if 10 == 10
+print('deu boa')- AI O PROGRAMA MOSTRA A MSG: deu boa 
+
+ATIVIDADE CELULAR:
+let celular = {
+    'marca': 'motorola',
+    'preço': '1200',
+    'cor': 'azul',
+    'admin': 'nicolli'
+}
+    console.log(celular['marca'])
+
+//faca um programa q tenha 4 opções: primeira; cadastrar cliente segunda; remover ultimo cliente terceira;ver listas de clientes e sair da aplicação
+
+let clientes = []
+while(true){
+    let opção = prompt('O que deseja fazer? \n1. Cadastrar clientes.\n2. Remover o último cliente \n3. Ver clientes \n4. Sair da aplicação')
+    if (opção = 1){
+        let nome = prompt('Qual o nome do cliente?')
+        clientes.push(nome)
+        console.log('Usuário cadastrado com sucesso.')
+        console.log(clientes)
+    }
+}
+else if(opção == 2){
+clientes.pop ()
+console.log(clientes)
+}
+else if(opção == 3){
+    console.log(clientes)
+}
+else if(opção == 4){
+    break
+}
+else{
+    console.log ('Opção inválida')
+}
