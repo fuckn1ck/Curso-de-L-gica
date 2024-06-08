@@ -41,4 +41,8 @@ let animal=[
 }
 ]
 console.log(animal['1']["filhotes"][1]["nome"])
+ou
+animal[1]['filhotes'].forEach((filho)=>console.log(filho)['nome']))
+ou
+filhotes.forEach(filhotes=>console.log(filhotes['nome']))
 
